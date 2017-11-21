@@ -1,0 +1,13 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": "A command line todo app created using readline and filesystem nodejs apis",
+  "main": "index.js",
+  "repository": "git@github.com:patilreena/todo-app.git",
+  "author": "Reena Patil <reena.patil@outlook.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+  	"start": "node ."
+  }
+}
