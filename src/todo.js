@@ -9,13 +9,15 @@ const rl = readline.createInterface({
 const lines = [];
 
 function run() {
+	// JSON.parse(row)
+
 	console.log('Enter all you todo\'s for today and type done when you finished');
 
 	rl.on('line', (inputText) => {
 	  if (inputText === 'done') {
 	  	return rl.close();
 	  }
-	  if (inputText) {
+	  else if (inputText) {
 	  	lines.push(inputText);
 	  }
 	});
